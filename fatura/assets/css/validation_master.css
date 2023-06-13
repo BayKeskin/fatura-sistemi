@@ -1,0 +1,10 @@
+
+    .vError {width:100%;}
+    .vError input , .vError select , .vError textarea  , .vError .selectric {border:1px solid #dc3545 !important;outline:none !important; width: 100%!important;}
+    .vError p.vErrorIn { width:100%;padding:5px 0px;box-sizing:border-box;font-size: 12px !important;color:#dc3545 !important;margin: 0px;float:left;font-weight: 400 !important;}
+    .charWrap {position:relative;float:left;width: 100% !important;}
+    .charWrap .charlimit {background:#fff;position:absolute;right: 1px;padding: 9px 10px;box-sizing:border-box;border-bottom: 1px solid #d1d1d1;border-left: 1px solid #d1d1d1;font-size: 13px;top: 1px;}
+    .vAjaxErrors {width:100%;float:left;height:auto;}
+    .vAjaxErrors .vSuccess-alert {background: #e2ffe2;border: 1px solid #88ff88;padding:10px;box-sizing:border-box;font-size: 13px;color: #1d611d;}
+    .vAjaxErrors .vErrors-alert {background: #ffd3d3;border: 1px solid #f7a2a2;padding:10px;box-sizing:border-box;font-size: 13px;color: #a93030;}
+    .vAjaxErrors .vErrors-info {background: #ffd3d3;border: 1px solid #f7a2a2;padding:10px;box-sizing:border-box;font-size: 13px;color: #a93030;}

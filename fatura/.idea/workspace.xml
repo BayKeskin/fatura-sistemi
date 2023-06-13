@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47d02eff-5906-418e-8f3f-e831b26539c3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ps25dajpOK4xdaRdo2xAvaOCE5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\fatura\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d02eff-5906-418e-8f3f-e831b26539c3" name="Changes" comment="" />
+      <created>1684231287082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684231287082</updated>
+      <workItem from="1684231288091" duration="11570000" />
+      <workItem from="1684305188780" duration="300000" />
+      <workItem from="1684305688296" duration="11457000" />
+      <workItem from="1684390176845" duration="20686000" />
+      <workItem from="1684754552643" duration="35954000" />
+      <workItem from="1684908724811" duration="23721000" />
+      <workItem from="1684995825087" duration="20636000" />
+      <workItem from="1685080542742" duration="20216000" />
+      <workItem from="1685340825296" duration="9567000" />
+      <workItem from="1685357146561" duration="2383000" />
+      <workItem from="1685425422539" duration="11856000" />
+      <workItem from="1685515658290" duration="19397000" />
+      <workItem from="1685947537792" duration="18521000" />
+      <workItem from="1686032372994" duration="16732000" />
+      <workItem from="1686120686728" duration="21058000" />
+      <workItem from="1686206305637" duration="7173000" />
+      <workItem from="1686294947716" duration="13039000" />
+      <workItem from="1686553186813" duration="9820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/validation_master.js</url>
+          <line>202</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>remoteDeploymentFS://&lt;316a31e3-6cb5-41f0-a7d4-4288b9d371aa&gt;/public_html/include/VeriKatmani.php</url>
+          <line>101</line>
+          <properties>
+            <option name="className" value="\veritabaniislem" />
+            <option name="methodName" value="veriGuncelle" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>remoteDeploymentFS://&lt;316a31e3-6cb5-41f0-a7d4-4288b9d371aa&gt;/public_html/include/VeriKatmani.php</url>
+          <line>191</line>
+          <properties>
+            <option name="className" value="\veritabaniislem" />
+            <option name="methodName" value="VeriOkuCokluSorgu" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/DataLayer.php</url>
+          <line>142</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/DataLayer.php</url>
+          <line>172</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

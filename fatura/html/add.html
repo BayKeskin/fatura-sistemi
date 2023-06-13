@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kell</title>
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-avasome/css/all.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/validation_master.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid header">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-11 p-r-0">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="../images/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Einkauf</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Verkauf</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kontakte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Auswertungen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Einstellungen</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <div class="input-group mb-3">
+                                    <button class="btn" type="button"
+                                            id="button-addon1"><i class="fa-solid fa-magnifying-glass fa-fw"></i></button>
+                                    <input type="text" class="form-control" placeholder="Suche nach Fahrzeuge, Kunden oder Verkäufe" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-1 p-l-0">
+                <a href="#">
+                    <img src="../images/user-img.png">
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-braille"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid content">
+    <div class="title">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>Neuer Gewerblicher Kaufvertrag</h1>
+            </div>
+            <div class="col-md-7">
+                <a href="#" class="btn top-button close"><i class="fa-regular fa-rectangle-xmark fa-fw"></i> Verwerfen</a>
+                <a href="#" class="btn top-button search"><i class="fa-solid fa-magnifying-glass fa-fw"></i> Vorschau</a>
+                <a href="#" class="btn top-button save"><i class="fa-regular fa-floppy-disk fa-fw"></i> Als Entwurf
+                    speichern</a>
+                <a href="#" class="btn top-button check"><i class="fa-regular fa-square-check fa-fw"></i> Fertigstellen</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="add-content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-title">
+                    Käufer:
+                </div>
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Firma oder Kunde suchen / erstellen">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Ansprechpartner">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="Anschrift">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Land">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Telefonnumer">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="section-title">
+                    Fahrzeug::
+                </div>
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-6"><input type="text" class="form-control" placeholder="Fahrzeug aus Bestand laden"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Fabrikat"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Modell / Typ"></div>
+
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Hubraum lt. KFZ Brief"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Lesitung KW / PS"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Leistung KW / PS"></div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-6"><input type="text" class="form-control" placeholder="Halter"></div>
+                                <div class="col-md-6"><input type="text" class="form-control" placeholder="Farbe"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Erstzulassung"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Laufleistung gesamt"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Nächste HU"></div>
+                        <div class="col-md-3"><input type="text" class="form-control" placeholder="Nächste AU"></div>
+
+                        <div class="col-md-12"><input type="text" class="form-control" placeholder="Extras"></div>
+
+                        <div class="col-md-2 p-t-10">
+                            Unfallfrei:
+                        </div>
+                        <div class="col-md-10">
+                            <div class="cat action">
+                                <label>
+                                    <input type="radio" name="test" value="1"><span>Ja</span>
+                                </label>
+                            </div>
+                            <div class="cat action">
+                                <label>
+                                    <input type="radio" name="test" value="1"><span>Nein</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 m-t-50">
+                            <textarea class="form-control" placeholder="Beschreibung des Unfallschadens"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="section-title">
+                    Dokument:
+                </div>
+                <div class="block mp-f">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Fortlaufende Nummer">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Datum">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-title">
+                    Preis:
+                </div>
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-2 p-t-10">
+                            Nettopreis
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="Nettopreis">
+                        </div>
+
+                        <div class="col-md-2 p-t-10">
+                            Ust.
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Ansprechpartner">
+                        </div>
+                        <div class="col-md-3 p-t-10 text-center">
+                            § 25a UStG.
+                        </div>
+                        <div class="col-md-3 p-r-0">
+                            <div class="cat action f-r ">
+                                <label>
+                                    <input type="checkbox" name="test2" value="1"><span>Ja</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 p-t-10">
+                            Bruttopreis
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="Bruttopreis">
+                        </div>
+                        <div class="col-md-2 p-t-10">
+                            In Worten
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="In Worten">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="section-title mt-35">
+                    Weitere Vereinbarungen:
+                </div>
+                <div class="block m-t-50">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <textarea class="form-control" placeholder="Weitere Vereinbarungen"></textarea>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    var dizin = 'kell/';
+    var vMinTarmesaj = "";
+    var vMaxTarmesaj = "";
+    var vCheckMinTarmesaj = "";
+    var vCheckRequiredmaxmesaj = "";
+    var vRequiredmesaj = "Bu alanı boş bıraktınız";
+    var vNumericmesaj = "Bu alana sadece rakam girebilirsiniz";
+    var vNumericNotmesaj = "Bu alanda sadece hatf girebilirsiniz";
+    var vEmailFiltermesaj = "Geçerli bir mail adresi giriniz";
+    var vMaxcharmesaj = "Bu alanda minimum seçim yapmanız gerekiyor";
+    var vMincharmesaj = "Bu alanda minimum seçim yapmanız gerekiyor";
+    var vPasswordConfirmmesaj = "Girdiğiniz şifreler birbiri ile aynı olmalıdır";
+    var vCheckRequiredmesaj = "Bu alanda seçim yapmalısınız";
+    var vCheckRequiredminmesaj = "Bu alanda seçim yapmalısınız";
+    var vTcRequiredmesaj = "Geçerli bir TC Numarası giriniz";
+    var vYoutubemesaj = "Geçerli Bir Adres Giriniz";
+    var vFileSizemesaj = "%c KB'den fazla resim veya dosya yükleyemezsiniz.";
+    var js_kalan_stok_uyari = "Bu ürünün kalan stok adeti : ";
+    var js_tc_uyari = "Bu kategoride ürün alabilmek için tc kimlik numaranızı doğrulamanız gerekmektedir TC Kimlik numaranızı doğrulamak için";
+    var js_tikla = "Bu kategoride ürün alabilmek için tc kimlik numaranızı doğrulamanız gerekmektedir TC Kimlik numaranızı doğrulamak için";
+</script>
+<script type="text/javascript" src="../assets/js/popper.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="../assets/js/validation_master.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="../assets/js/owl.carousel.js"></script>
+<link rel="stylesheet" href="../assets/css/animate.css">
+<script type="text/javascript" src="../assets/js/app.js"></script>
+</body>
+</html>
